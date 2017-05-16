@@ -1,0 +1,18 @@
+uuid: 62ef6784-d9ae-45f0-97be-9e98a51b5b5a
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Image and Text'
+type: image_and_text
+description: 'This content type includes image and text'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

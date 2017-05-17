@@ -9,7 +9,8 @@
         "drupal/admin_toolbar": "^1.19",
         "drupal/pathauto": "^1.0",
         "drupal/address": "^1.0@RC",
-        "drupal/honeypot": "^1.25"
+        "drupal/honeypot": "^1.25",
+        "drupal/devel": "^1.0@RC"
     },
     "replace": {
         "drupal/core": "~8.3"

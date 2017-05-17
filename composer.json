@@ -10,7 +10,8 @@
         "drupal/pathauto": "^1.0",
         "drupal/address": "^1.0@RC",
         "drupal/honeypot": "^1.25",
-        "drupal/devel": "^1.0@RC"
+        "drupal/devel": "^1.0@RC",
+        "drupal/metatag": "^1.0"
     },
     "replace": {
         "drupal/core": "~8.3"

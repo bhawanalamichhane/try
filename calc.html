@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<title>Addtion, Substraction, Divide &amp; Multiplication using javaScript!</title>
+	<script>
+		function Calc(){
+			var val1 = document.getElementById("val1").value;
+			var val2 = document.getElementById("val2").value;
+			var opt = document.getElementById("opt").value;
+			
+			var ans = eval(val1 + opt + val2);
+			document.getElementById("ans").value = ans;
+		}
+	</script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<h3>Addition, Subtraction, Multiplication &amp; Division using JavaScript!</h3>
+				<hr />
+				<div class="col-lg-1">
+					<label for="desc">Value 1:</label> 
+				</div>
+				<div class="col-lg-1">
+					<input type="number" class="form-control" id="val1" value="5" required>
+				</div>
+			</div>
+			<br />
+			<div class="row">
+				<div class="col-lg-1">
+					<label for="desc">Value 2:</label> 
+				</div>
+				<div class="col-lg-1">
+					<input type="number" class="form-control" id="val2" value="2" required>
+				</div>
+				<div class="col-lg-1">
+					<select id="opt" class="form-control">
+						<option>+</option>
+						<option>-</option>
+						<option>*</option>
+						<option>/</option>
+					</select>
+				</div>
+ 
+			</div>
+			<br />
+			<div class="row">
+				<div class="col-lg-1">
+					<label for="desc">Answer:</label> 
+				</div>
+				<div class="col-lg-1">
+					<input type="text" class="form-control" id="ans" readonly>
+				</div>
+				<div class="col-lg-1">
+					<button type="submit" name="submit" class="btn btn-success" onClick="Calc()">Submit</button>
+				</div>
+ 
+			</div>
+		</div>
+	</body>
+</html>
